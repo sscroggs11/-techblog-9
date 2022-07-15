@@ -22,7 +22,7 @@ const sess = {
 };
 //initialize the server
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3306;
 
 //middlewear
 app.use(express.json());
